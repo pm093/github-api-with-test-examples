@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../../public/css/repo.css';
 
+import '../../public/css/repo.css';
 
 const Repo = ({ name, link, forks, watchers, issues }) => {
     return(

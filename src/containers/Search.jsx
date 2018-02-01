@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import * as fromActions from '../actions';
 import React from 'react';
 import _ from 'lodash';
+
 import '../../public/css/search.css'
 
 export const Search = ({ search, users }) => {

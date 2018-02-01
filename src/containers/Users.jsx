@@ -1,6 +1,7 @@
 import { connect } from 'react-redux';
 import React from 'react';
 import User from '../components/User.jsx';
+
 import '../../public/css/users.css'
 
 export const Users = ({ users, error }) => {

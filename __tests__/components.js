@@ -1,15 +1,15 @@
-import React from 'react';
-import Enzyme, { mount, shallow } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-import Repo from '../src/components/Repo.jsx';
-import ConnectedRepos, {Repos} from '../src/containers/Repos.jsx';
-import ConnectedUsers, {Users} from '../src/containers/Users.jsx';
-import ConnectedSearch, { Search } from '../src/containers/Search.jsx';
 import { createMockStore } from 'redux-test-utils';
-import sinon from 'sinon';
 import {Provider} from 'react-redux'
 import {User} from '../src/components/User.jsx'
+import Enzyme, { mount, shallow } from 'enzyme';
+import ConnectedRepos, {Repos} from '../src/containers/Repos.jsx';
+import ConnectedSearch, { Search } from '../src/containers/Search.jsx';
+import ConnectedUsers, {Users} from '../src/containers/Users.jsx';
 import * as fromActions from '../src/actions';
+import React from 'react';
+import Adapter from 'enzyme-adapter-react-16';
+import Repo from '../src/components/Repo.jsx';
+import sinon from 'sinon';
 
 Enzyme.configure({
     adapter: new Adapter()
