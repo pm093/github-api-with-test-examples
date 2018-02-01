@@ -1,0 +1,12 @@
+.users{
+    margin: 0 auto;
+    width:60%;
+    min-width:300px;
+    padding:0;
+    list-style:none;
+}
+.usersContainer{
+    margin:0 auto; 
+    width:300px;
+    margin-top:20px;
+}

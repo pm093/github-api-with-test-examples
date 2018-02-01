@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1517472749192" clover="3.2.0">
+  <project timestamp="1517472749223" name="All files">
+    <metrics statements="57" coveredstatements="46" conditionals="20" coveredconditionals="16" methods="29" coveredmethods="21" elements="106" coveredelements="83" complexity="0" loc="57" ncloc="57" packages="4" files="8" classes="8">
+      <package name="actions">
+        <metrics statements="21" coveredstatements="18" conditionals="2" coveredconditionals="1" methods="17" coveredmethods="15"/>
+        <file name="index.js" path="D:\github-app\src\actions\index.js">
+          <metrics statements="21" coveredstatements="18" conditionals="2" coveredconditionals="1" methods="17" coveredmethods="15"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+          <line num="20" count="2" type="stmt"/>
+          <line num="24" count="2" type="stmt"/>
+          <line num="28" count="2" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="36" count="2" type="stmt"/>
+          <line num="40" count="2" type="stmt"/>
+          <line num="46" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="components">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <file name="Repo.jsx" path="D:\github-app\src\components\Repo.jsx">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+        </file>
+        <file name="User.jsx" path="D:\github-app\src\components\User.jsx">
+          <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="containers">
+        <metrics statements="13" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="2"/>
+        <file name="Search.jsx" path="D:\github-app\src\containers\Search.jsx">
+          <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="3" type="stmt"/>
+          <line num="9" count="3" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="16" count="3" type="stmt"/>
+          <line num="17" count="0" type="stmt"/>
+        </file>
+        <file name="Users.jsx" path="D:\github-app\src\containers\Users.jsx">
+          <metrics statements="7" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="reducers">
+        <metrics statements="17" coveredstatements="17" conditionals="16" coveredconditionals="15" methods="3" coveredmethods="3"/>
+        <file name="repoStatusReducer.js" path="D:\github-app\src\reducers\repoStatusReducer.js">
+          <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+          <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+        </file>
+        <file name="userStatusReducer.js" path="D:\github-app\src\reducers\userStatusReducer.js">
+          <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+          <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+        </file>
+        <file name="usersReducer.js" path="D:\github-app\src\reducers\usersReducer.js">
+          <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+          <line num="2" count="3" type="cond" truecount="3" falsecount="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

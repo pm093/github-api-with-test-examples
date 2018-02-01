@@ -1,0 +1,10 @@
+.search{
+    width:300px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.search input{
+    height:30px;
+    font-size:18px;
+    width:100%;
+}

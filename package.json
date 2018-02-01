@@ -1,0 +1,51 @@
+{
+  "name": "github-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-fetch": "^1.1.1",
+    "css-loader": "^0.28.9",
+    "lodash": "^4.17.4",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "sinon": "^4.2.2",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.1.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "expect": "^22.1.0",
+    "fetch-mock": "^6.0.0",
+    "jest": "^22.1.4",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-mock-store": "^1.5.1",
+    "redux-test-utils": "^0.2.2",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  }
+}
